@@ -1,0 +1,68 @@
+Arguments: 
+  /home/fpigeonjr/n/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Python37/Scripts/:/mnt/c/Python37/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/frank/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/frank/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/snap/bin:/home/fpigeonjr/n/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.15.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-social-icons/-/react-social-icons-4.1.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/share/yarn/lib/cli.js:141091:19)
+      at Object.onceWrapper (events.js:277:13)
+      at ClientRequest.emit (events.js:189:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:662:40)
+      at Object.onceWrapper (events.js:277:13)
+      at TLSSocket.emit (events.js:189:13)
+      at TLSSocket.Socket._onTimeout (net.js:440:8)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+
+npm manifest: 
+  {
+    "name": "gatsby-starter-under-construction",
+    "description": "Blazing fast \"Under Construction\" page with a blazing quick setup.",
+    "version": "1.1.0",
+    "author": "Robin Métral <robin@metral.ch>",
+    "dependencies": {
+      "gatsby": "^2.0.76",
+      "gatsby-plugin-manifest": "^2.0.13",
+      "gatsby-plugin-offline": "^2.0.21",
+      "gatsby-plugin-react-helmet": "^3.0.5",
+      "react": "^16.6.3",
+      "react-dom": "^16.6.3",
+      "react-helmet": "^5.2.0",
+      "react-social-icons": "^4.1.0",
+      "react-transition-group": "^2.5.3"
+    },
+    "keywords": [
+      "gatsby"
+    ],
+    "license": "MIT",
+    "scripts": {
+      "build": "gatsby build",
+      "develop": "gatsby develop",
+      "start": "npm run develop"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/robinmetral/gatsby-starter-under-construction"
+    },
+    "bugs": {
+      "url": "https://github.com/robinmetral/gatsby-starter-under-construction/issues"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
