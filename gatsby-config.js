@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'CBET Coming Soon',
-    message: 'Current Students can access Canvas here:',
-    pattern: 'Seigaiha',
-    color: '#4c4c4c',
-    titleFont: 'Righteous',
-    messageFont: 'Roboto',
+    title: "Please visit us at our new website at",
+    message: "Current Students can access Canvas here:",
+    pattern: "Seigaiha",
+    color: "#4c4c4c",
+    titleFont: "Righteous",
+    messageFont: "Roboto",
     social: [
-      'https://www.facebook.com/CBETCOLLEGE/',
-      'https://www.linkedin.com/school/cbetcollege/'
+      "https://www.facebook.com/CBETCOLLEGE/",
+      "https://www.linkedin.com/school/cbetcollege/"
     ]
   },
   plugins: [
@@ -16,15 +16,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-under-construction',
-        short_name: 'Under Construction',
-        start_url: '/',
-        background_color: '#4c4c4c',
-        theme_color: '#4c4c4c',
-        display: 'standalone',
-        icon: 'src/images/icon.png'
+        name: "gatsby-starter-under-construction",
+        short_name: "Under Construction",
+        start_url: "/",
+        background_color: "#4c4c4c",
+        theme_color: "#4c4c4c",
+        display: "standalone",
+        icon: "src/images/icon.png"
       }
     },
-    'gatsby-plugin-offline'
+    "gatsby-plugin-offline"
   ]
-}
+};
